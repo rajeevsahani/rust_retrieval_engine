@@ -1,0 +1,4 @@
+target/
+.env
+*.rs_bkp
+*_bkp.rs
