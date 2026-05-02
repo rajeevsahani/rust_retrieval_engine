@@ -26,6 +26,7 @@ Download Docker Desktop from https://www.docker.com/products/docker-desktop
 ---
 
 ## Project Structure
+```
 rust_retrieval_engine/
 ├── src/
 │   ├── main.rs        # Entry point
@@ -38,6 +39,7 @@ rust_retrieval_engine/
 ├── Cargo.toml
 ├── Dockerfile
 └── README.md
+```
 
 ---
 
@@ -178,7 +180,7 @@ git push -u origin main
 ---
 
 ## Logs
-
+```
 Logs follow Python-style formatting:
 2026-05-03 01:22:03  INFO src/main.rs:14: Starting rust_retrieval_engine...
 2026-05-03 01:22:03  INFO src/schema.rs:5: Building schema...
@@ -194,3 +196,4 @@ Logs follow Python-style formatting:
 2026-05-03 01:22:33  WARN src/server.rs:42: 404 - Route not found
 2026-05-03 01:22:46  INFO src/server.rs:61: --> POST /search
 2026-05-03 01:22:46  WARN src/server.rs:69: <-- POST /search 422
+```
